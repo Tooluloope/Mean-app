@@ -25,6 +25,6 @@ app.get('/*',function(req, res) {
   res.sendFile(path.join(__dirname,'dist/index.html'));
 });
 
-app.listen(port,function () {
+app.listen(process.env.PORT || port,function () {
   console.log('server running on localHost' + port)
 });
