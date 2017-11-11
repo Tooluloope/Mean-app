@@ -1,0 +1,40 @@
+[debug] [2017-11-10T15:54:57.729Z] ----------------------------------------------------------------------
+[debug] [2017-11-10T15:54:57.733Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADETULA\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-11-10T15:54:57.734Z] CLI Version:   3.14.0
+[debug] [2017-11-10T15:54:57.734Z] Platform:      win32
+[debug] [2017-11-10T15:54:57.734Z] Node Version:  v6.11.2
+[debug] [2017-11-10T15:54:57.735Z] Time:          Fri Nov 10 2017 16:54:57 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2017-11-10T15:54:57.735Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-10T15:54:57.830Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-10T15:54:57.831Z] > authorizing via signed-in user
+[debug] [2017-11-10T15:54:57.836Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-10T15:54:57.837Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/qA4AQihVSpOhy0V95PmAEoe-znJ527cGixJDoMq4mlU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Nov 10 2017 16:54:57 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2017-11-10T15:54:58.817Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-10T15:54:58.840Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/andela-4  
+ Fri Nov 10 2017 16:54:58 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2017-11-10T15:55:00.429Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-10T15:55:00.431Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/andela-4/tokens  
+ Fri Nov 10 2017 16:55:00 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2017-11-10T15:55:01.724Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-10T16:03:30.681Z] ----------------------------------------------------------------------
+[debug] [2017-11-10T16:03:30.684Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADETULA\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-11-10T16:03:30.685Z] CLI Version:   3.14.0
+[debug] [2017-11-10T16:03:30.685Z] Platform:      win32
+[debug] [2017-11-10T16:03:30.685Z] Node Version:  v6.11.2
+[debug] [2017-11-10T16:03:30.686Z] Time:          Fri Nov 10 2017 17:03:30 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2017-11-10T16:03:30.686Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-10T16:03:30.705Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-10T16:03:30.706Z] > authorizing via signed-in user
+[debug] [2017-11-10T16:03:30.711Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/andela-4  
+ Fri Nov 10 2017 17:03:30 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2017-11-10T16:03:32.657Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-10T16:03:32.660Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/andela-4/tokens  
+ Fri Nov 10 2017 17:03:32 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2017-11-10T16:03:33.936Z] <<< HTTP RESPONSE 200
